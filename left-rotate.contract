@@ -1,0 +1,9 @@
+[Contractor Entry]
+Name=↺ Rotate left
+Name[pt_BR]=↺ Rotacionar à esquerda
+Icon=image
+Description=Rotate the selected image 90 degrees to the left
+Description[pt_BR]=Gira a imagem selecionada em 90 graus para a esquerda
+MimeType=image/bmp;image/gif;image/jpeg;image/png;image/tiff
+Exec=mogrify -rotate -90 %f
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
