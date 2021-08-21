@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=⇲ Resize image
+Name[pt_BR]=⇲ Redimensionar imagem
+Icon=image
+Description=Resize images
+MimeType=image/bmp;image/gif;image/jpeg;image/png;image/tiff
+Exec=/path/to/resizer.sh %f
