@@ -3,5 +3,5 @@ Name=🎝 Audio extract
 Name[pt_BR]=🎝 Extrair audio
 Icon=audio-x-generic
 Description=Audio extract
-MimeType=video/mpeg;video/mpeg-system;video/x-mpeg;video/x-mpeg2;video/x-mpeg-system;video/mp4;video/3gpp;video/fli;video/x-fli;video/x-flv;video/vnd.vivo;video/x-matroska;video/matroska;video/x-mng;video/mp2t;video/vnd.mpegurl;video/x-ogm+ogg;
+MimeType=video/mpeg;video/mpeg-system;video/x-mpeg;video/x-mpeg2;video/x-mpeg-system;video/mp4;video/3gpp;video/fli;video/x-fli;video/x-flv;video/vnd.vivo;video/x-matroska;video/matroska;video/x-mng;video/webm;video/x-webm;video/mp2t;video/vnd.mpegurl;video/x-ogm+ogg;
 Exec=/path/to/extract_audio.sh %f
