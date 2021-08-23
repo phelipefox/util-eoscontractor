@@ -1,0 +1,9 @@
+[Contractor Entry]
+Name=↔ Flip image horizontally
+Name[pt_BR]=↔ Inverter imagem horizontalmente
+Icon=image
+Description=Flip image horizontally
+Description[pt_BR]=Inverte a imagem no eixo horizontal
+MimeType=image/bmp;image/gif;image/jpeg;image/png;image/tiff
+Exec=/path/to/flop_image.sh %f
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
