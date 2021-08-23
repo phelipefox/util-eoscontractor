@@ -1,0 +1,9 @@
+[Contractor Entry]
+Name=◑ Increase the contrast
+Name[pt_BR]=◑ Aumentar o contraste
+Icon=image
+Description=Increases image contrast by 3%
+Description[pt_BR]=Aumenta o contraste da imagem em 3%
+MimeType=image/bmp;image/gif;image/jpeg;image/png;image/tiff
+Exec=/path/to/contrast.sh %f
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
