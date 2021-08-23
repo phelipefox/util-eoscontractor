@@ -12,4 +12,6 @@ To scripts, save in a directory and specify the path in "Exec=" line to:
 * resizer.contract
 * audio-extract.contract
 
+⚠️ SCRIPTS MUST HAVE PERMISSION TO EXECUTE ⚠️
+
 ![Screenshot](/preview.gif)
