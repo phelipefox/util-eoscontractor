@@ -11,6 +11,7 @@ To install, just copy the .contract files into:
 To scripts, save in a directory and specify the path in "Exec=" line to:
 * resizer.contract
 * audio-extract.contract
+* extract-frames.contract
 
 ⚠️ SCRIPTS MUST HAVE PERMISSION TO EXECUTE ⚠️
 
