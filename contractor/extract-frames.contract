@@ -1,0 +1,9 @@
+[Contractor Entry]
+Name=🅵 Extract frames
+Name[pt_BR]=🅵 Extrair sequência de imagens
+Icon=image
+Description=Extract frames
+Description[pt_BR]=Extrai sequência de imagens
+MimeType=video/mpeg;video/mpeg-system;video/x-mpeg;video/x-mpeg2;video/x-mpeg-system;video/mp4;video/3gpp;video/fli;video/x-fli;video/x-flv;video/vnd.vivo;video/x-matroska;video/matroska;video/x-mng;video/webm;video/x-webm;video/mp2t;video/vnd.mpegurl;video/x-ogm+ogg;
+Exec=/path/to/extract_frames.sh %f
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
