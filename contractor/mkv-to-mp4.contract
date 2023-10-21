@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=🎞 Convert to MP4
+Name[pt_BR]=🎞 Converter para MP4
+Icon=audio-x-generic
+Description=Audio extract
+MimeType=video/vnd.vivo;video/x-matroska;video/matroska;video/x-mng;video/webm;video/x-webm;
+Exec=/path/to/mkv-to-mp4.sh %f
