@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=► Audio preview
+Name[pt_BR]=► Ouvir um trecho
+Icon=audio-x-generic
+Description=Audio extract
+MimeType=audio/ogg;audio/vorbis;audio/x-vorbis;audio/x-vorbis+ogg;audio/x-speex;audio/opus;audio/flac;audio/x-flac;audio/x-ms-asf;audio/x-ms-asx;audio/x-ms-wax;audio/x-ms-wma;audio/mpeg;
+Exec=cvlc rc %f --play-and-exit --start-time 8 --stop-time 24
