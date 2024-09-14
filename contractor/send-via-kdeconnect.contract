@@ -1,0 +1,8 @@
+[Contractor Entry]
+Name=🠲🂠 Send straight to my phone
+Name[pt_BR]=🠲🂠 Enviar direto para o Smartphone
+Icon=kdeconnect
+Description=Envia arquivos via KDE Connect
+MimeType=!inode;
+Exec=kdeconnect-cli --share %F -d INPUT-KDE-CONNECT-ID-HERE
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
