@@ -1,0 +1,52 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Smartphone
+Name[pt_BR]=Smartphone
+GenericName[pt_BR]=Comandos do Celular
+Comment[pt_BR]=Acessa o celular conectado
+Exec=scrcpy
+Icon=phone
+Keywords=find;screen;phone;smartphone;
+Keywords[pt_BR]=encontrar;localizar;telefone;celular;smartphone;tocar;tela;conectar;desconectar;
+Actions=Mirrorscreenphone;Connect;Disconnect;Findmyphone;BackupFiles;RestoreBackupFiles;
+StartupNotify=false
+NoDisplay=false
+Type=Application
+Categories=GTK;GNOME;Utility;HardwareSettings;X-GNOME-DevicesSettings;
+
+[Desktop Action Findmyphone]
+Exec=kdeconnect-cli -d INPUT-KDE-CONNECT-ID-HERE --ring
+Name=Find my phone
+Name[pt_BR]=Encontre o seu celular
+Icon=find-location
+
+[Desktop Action Mirrorscreenphone]
+Exec=scrcpy
+Name=Show phone screen
+Name[pt_BR]=Exibir tela do celular
+Icon=phone
+
+[Desktop Action Connect]
+Exec=adb tcpip IP-PORT && adb connect IP-ADRESS-HERE-WITH-PORT
+Name=Connect to phone over wifi
+Name[pt_BR]=Conectar no celular através do wi-fi
+Icon=network-wireless
+
+[Desktop Action Disconnect]
+Exec=adb disconnect IP-ADRESS-HERE-WITH-PORT
+Name=Disconnect phone
+Name[pt_BR]=Desconectar do celular
+Icon=system-log-out
+
+[Desktop Action BackupFiles]
+Exec=adb pull /storage/emulated/0/ local/to/backup/folder
+Name=Backup files in UserSpace from device
+Name[pt_BR]=Cria Backup dos arquivos do Celular
+Icon=phone
+
+[Desktop Action RestoreBackupFiles]
+Exec=adb push local/to/backup/folder /storage/emulated/0/
+Name=Restore Backup files in UserSpace to device
+Name[pt_BR]=Restaura Backup dos arquivos para o Celular
+Icon=phone
