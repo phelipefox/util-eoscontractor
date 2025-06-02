@@ -9,7 +9,7 @@ Exec=scrcpy
 Icon=phone
 Keywords=find;screen;phone;smartphone;
 Keywords[pt_BR]=encontrar;localizar;telefone;celular;smartphone;tocar;tela;conectar;desconectar;
-Actions=Mirrorscreenphone;Connect;Disconnect;Findmyphone;BackupFiles;RestoreBackupFiles;
+Actions=Mirrorscreenphone;Connect;Disconnect;Findmyphone;Camera;BackupFiles;RestoreBackupFiles;
 StartupNotify=false
 NoDisplay=false
 Type=Application
@@ -26,6 +26,12 @@ Exec=scrcpy
 Name=Show phone screen
 Name[pt_BR]=Exibir tela do celular
 Icon=phone
+
+[Desktop Action Camera]
+Exec=scrcpy --video-source=camera --no-audio
+Name=Open phone's camera
+Name[pt_BR]=Abrir camera do celular
+Icon=camera-web
 
 [Desktop Action Connect]
 Exec=adb tcpip IP-PORT && adb connect IP-ADRESS-HERE-WITH-PORT
