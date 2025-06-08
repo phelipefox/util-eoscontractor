@@ -1,0 +1,9 @@
+[Contractor Entry]
+Name=🏞️ Export to image
+Name[pt_BR]=🏞️ Exportar para imagem
+Icon=image
+Description=Export to image
+Description[pt_BR]=Exportar para imagem
+MimeType=application/x-krita;
+Exec=/home/phelipefox/Apps/krita_export.sh %f
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
