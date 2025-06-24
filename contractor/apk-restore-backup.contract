@@ -1,0 +1,8 @@
+[Contractor Entry]
+Name=📦️ Restore app backup on smartphone
+Name[pt_BR]=📦️ Restaurar o backup do aplicativo no celular
+Icon=office-database
+Description=Restore APK data selected
+MimeType=application/octet-stream;
+Exec=adb restore %F
+X-GNOME-Gettext-Domain=pantheon-desktop-plug
