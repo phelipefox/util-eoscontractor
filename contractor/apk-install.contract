@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=📲️ Install on smartphone
+Name[pt_BR]=📲️ Instalar no celular
+Icon=binary
+Description=Install APK selected
+MimeType=application/vnd.android.package-archive;
+Exec=adb install %F
